@@ -16,7 +16,7 @@ img{
     width: 100%;
 }
 section{
-    padding: 100px 0;
+    padding: 100px  0;
     background: #122e44;
 }
 .section_title{
@@ -50,6 +50,7 @@ header{
 }
 .nav_links{
     display: flex;
+    flex-wrap: wrap;
 }
 .nav_links li a{
     margin-left: 15px;
@@ -124,7 +125,7 @@ header{
 }
 /* Hakkımda */
 .inner_testi{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
